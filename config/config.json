@@ -1,0 +1,25 @@
+{
+	"development": {
+		"username": "postgres",
+		"password": "postgres",
+		"database": "directus",
+		"host": "localhost",
+		"dialect": "postgresql"
+	},
+	"test": {
+		"username": "postgres",
+		"password": "postgres",
+		"database": "directus",
+		"host": "localhost",
+		"dialect": "postgresql"
+	},
+	"production": {
+		"username": "directus",
+		"password": "4sh8qJg7e4jahGTg",
+		"database": "imegine_dev",
+		"host": "188.34.152.153",
+		"dialect": "postgresql"
+	}
+}
+
+

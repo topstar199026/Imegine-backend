@@ -1,0 +1,45 @@
+{
+	"name": "imegine-socket-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ./server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aes256": "^1.1.0",
+		"async": "^3.2.1",
+		"aws-sdk": "^2.1004.0",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.1.1",
+		"delay": "^5.0.0",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"formidable": "^1.2.2",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.1",
+		"node-cron": "^3.0.0",
+		"node-rsa": "^1.1.1",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"pg": "^8.7.1",
+		"pg-hstore": "^2.3.4",
+		"secure-password": "^4.0.0",
+		"sequelize": "^6.6.5",
+		"socket.io": "^4.2.0",
+		"socket.io-client": "^4.4.0",
+		"yup": "^0.32.9"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	},
+	"optionalDependencies": {
+		"bufferutil": "^4.0.3",
+		"utf-8-validate": "^5.0.5"
+	}
+}
