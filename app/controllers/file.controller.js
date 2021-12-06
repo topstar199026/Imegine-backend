@@ -9,12 +9,12 @@ function randomInt() {
 };
 
 let pathParams, image, imageName;
-const bucketName = 'imegine-app';
-const spacesEndpoint = new AWS.Endpoint('fra1.digitaloceanspaces.com');
+const bucketName = '';
+const spacesEndpoint = new AWS.Endpoint('');
 const s3 = new AWS.S3({ 
 	endpoint: spacesEndpoint, 
-	accessKeyId: 'MT34RL7AT6CUURUJUFPA', 
-	secretAccessKey: '85kWc43CBU/NP+MXNNwsRACPdt7jsdgc1Nc35257eng'
+	accessKeyId: '', 
+	secretAccessKey: ''
 });
 
 const createMainBucket = (callback) => {
